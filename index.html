@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google's Top Art Pieces!</title>
+    <script src="https://use.fontawesome.com/5cd833ef09.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+
+  <body>
+    <!-- HERO -->
+    <!-- <section class="hero has-background-info-dark has-text-centered">
+      <div class="hero-body">
+        <p class="title is-size-1">CSSI Beautiful Art Pieces</p>
+        <p class="subtitle is-size-3">Our Top 10 Favorite Art Pieces of 2022</p>
+        <a href="index.html" class="subtitle is-size-3">
+          <span class="icon-text">
+            <span class="icon">
+                <i class="fas fa-home"></i>
+              </span>
+            <span>Home</span>
+          </span>
+        </a>
+      </div>
+    </section> -->
+
+
+    <nav class="navbar">
+    <div class="container">
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <!--<a href="index.html" class="navbar-item">
+            Home
+          </a>-->
+          <a href="index.html" class="subtitle is-size-5">
+          <span class="icon-text">
+            <span class="icon">
+                <i class="fas fa-home"></i>
+              </span>
+            <span>Home</span>
+          </span>
+        </a>
+        </div>
+  
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-link">Donate!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-link is-fullheight-with-navbar">
+    <div class="hero-body">
+    <div class="container has-text-centered">
+      <p class="subtitle is-size-1">
+        Welcome to
+      </p>
+      <p class="title is-size-1">
+        CSSI Beautiful Art Pieces
+      </p>
+      <p class="subtitle">
+        Our Top 10 Favorite Art Pieces of 2022
+      </p>
+    </div>
+  </div>
+  </section>
+
+
+    
+
+    <section class="section">
+      <h1 class="title has-text-centered">Featured</h1>
+    </section>
+
+    <!-- ROW 1 -->
+    <div class="columns is-centered">
+      <!-- COLUMN 1 -->
+      <div class="column is-one-third mt-4">
+        <!-- CARD -->
+        <a href="BoyHoldingNose.html"><div class="card">
+          <div class="card-image p-5">
+            <figure class="image">
+              <img
+                src="https://m.media-amazon.com/images/I/7169IbAYCKL._AC_SX679_.jpg"
+                alt="Boy Holding Nose Scuplture"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">Boy Holding Nose</p>
+              <p class="subtitle is-6">Bathroom Decor, 5"</p>
+            </div>
+          </div>
+        </div> </a>
+      </div>
+    </div>
+
+    <section class="section">
+      <h1 class="title has-text-centered">Our Top Choices</h1>
+    </section>
+
+    <!-- ROW 2 -->
+    <div class="columns is-centered is-variable is-5">
+      <!-- COLUMN 1 -->
+      <div class="column is-one-quarter">
+        <!-- CARD -->
+        <a href="MushroomVision.html"> <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img
+                src="https://i.pinimg.com/736x/47/4a/e8/474ae8b523ce1b02116ccb39c622d9bc--fungi-art-pieces.jpg"
+                alt="Mushroom Vision"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">Mushroom Vision</p>
+              <p class="subtitle is-6">Scott Scheidly</p>
+            </div>
+          </div>
+        </div></a>
+      </div>
+
+      <!-- COLUMN 2 -->
+      <div class="column is-one-quarter">
+        <!-- CARD -->
+        <a href="TheUglyDuchess.html"> <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="The Ugly Duchess"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">The Ugly Duchess</p>
+              <p class="subtitle is-6">Quentin Matsys</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- COLUMN 3 -->
+      <div class="column is-one-quarter">
+        <!-- CARD -->
+        <a href="Stare.html"><div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThqWvV3tDFqLWju8sYRDOMaDWhPRCMJZiGVQ&usqp=CAU"
+                alt="Stare"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-4">Stare</p>
+              <p class="subtitle is-6">Saatchi Art</p>
+            </div>
+          </div>
+        </div></a>
+      </div>
+    </div>
+
+    <!-- ROW 3 -->
+    <div class="columns is-centered is-variable is-5">
+      <!-- COLUMN 1 -->
+      <div class="column is-one-quarter">
+        <!-- CARD -->
+        <a href="TheBodygaurd.html"><div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img
+                src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/guarded-james-w-johnson.jpg"
+                alt="Watermelon Man"
+              />
+            </figure>
+          </div>
+
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-3">The Bodygaurd</p>
+              <p class="subtitle is-5">Fine Art</p>
+            </div>
+          </div>
+        </div></a>
+      </div>
+
+      <!-- COLUMN 2 -->
+      <div class="column is-one-quarter">
+        <!-- CARD -->
+        <a href="LaLettera.html"><div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img
+                src="https://i.pinimg.com/originals/e2/f8/ea/e2f8ea19deb8fd90a407c5201d80b954.jpg"
+                alt="Disparate Youth"
+              />
+            </figure>
+          </div>
+
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-3">La Lettera</p>
+              <p class="subtitle is-5">Alan Feltus</p>
+            </div>
+          </div>
+        </div></a>
+      </div>
+
+      <!-- COLUMN 3 -->
+      <div class="column is-one-quarter">
+        <!-- CARD -->
+        <a href="TheWeepingWoman.html"> <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img
+                src="http://infomory.com/wp-content/uploads/2013/12/Picasso_The_Weeping_Woman_Tate_identifier_T05010_10.jpg"
+                alt="The Weeping Woman"
+              />
+            </figure>
+          </div>
+
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-3">The Weeping Woman</p>
+              <p class="subtitle is-5">Pablo Picasso</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ROW 3 -->
+    <div class="columns is-centered is-variable is-5">
+      <!-- COLUMN 1  -->
+      <div class="column is-one-quarter">
+        <!-- CARD -->
+        <a href="Les.html"> <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img
+                src="https://images.theconversation.com/files/90205/original/image-20150729-30858-1m4oo3z.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+                alt="Les"
+              />
+            </figure>
+          </div>
+
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-3">Les Demoiselles d'Avignon</p>
+              <p class="subtitle is-5">Pablo Picasso</p>
+            </div>
+          </div>
+        </div></a>
+      </div>
+
+      <!-- COLUMN 2 -->
+      <div class="column is-one-quarter">
+        <!-- CARD -->
+        <a href="TwoheadedChicken.html"><div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvU3NUfPF8hAT1f_SlK0QDOBuaqRXXf414mQ&usqp=CAU"
+                alt="Two-headed Chicken"
+              />
+            </figure>
+          </div>
+
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-3">Two-headed Chicken</p>
+              <p class="subtitle is-5">Maria Prymachenko</p>
+            </div>
+          </div>
+        </div></a>
+      </div>
+
+      <!-- COLUMN 3 -->
+      <div class="column is-one-quarter">
+        <!-- CARD -->
+        <a href="TheFeast.html"><div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrNHQi2Cmv8r5uaEppGuUvWomvLV3FJjm9Tw&usqp=CAU"
+                alt="The Feast"
+              />
+            </figure>
+          </div>
+
+          <div class="card-content">
+            <div class="content">
+              <p class="title is-3">The Feast</p>
+              <p class="subtitle is-5">Joan Miro</p>
+            </div>
+          </div>
+        </div></a>
+      </div>
+    </div>
+
+    <section id="subscribe">
+      <h3>Subscribe to BeautifulArts.com</h3>
+      <input class="input is-rounded" type="text" placeholder="Enter email address">
+    </section>
+    
+  </body>
+</html>
